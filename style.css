@@ -1,0 +1,123 @@
+@font-face {
+    font-weight: 400;
+    font-family: 'Poppins';
+    font-style: normal;
+    src: url('./fonts/Poppins-Regular.ttf') format('truetype');
+  }
+  
+@font-face {
+    font-weight: 500;
+    font-family: 'Poppins';
+    font-style: normal;
+    src: url('./fonts/Poppins-Medium.ttf') format('truetype');
+  }
+
+@font-face {
+    font-weight: 600;
+    font-family: 'Poppins';
+    font-style: normal;
+    src: url('./fonts/Poppins-SemiBold.ttf') format('truetype');
+  }
+  
+@font-face {
+    font-weight: 700;
+    font-family: 'Poppins';
+    font-style: normal;
+    src: url('./fonts/Poppins-Bold.ttf') format('truetype');
+  }
+  
+@font-face {
+    font-family: 'icomoon';
+    src: url('./fonts/icomoon/icomoon.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block; 
+}
+
+:root {
+    --color-white: #ffff;
+    --color-rectangle-176: #252525;
+    --color-rectangle-26: #424242;
+    --color-rectangle-178: #858585;
+    --color-rectangle-28: #D2D2D2;
+    --color-rectangle-177: #EDEDED;
+    --color-rectangle-180: #E43071;
+    --color-rectangle-179: #FFC1D8;
+    --color-rectangle-183: #26D68A;
+    --color-rectangle-182: #26D68A;
+}
+
+html, body {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 18px;
+    font-style: normal;
+    line-height: normal;
+    margin: 0 0;
+}
+
+
+.navigation {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: var(--color-rectangle-180);
+}
+
+.navigation__logo {
+    display: flex;
+}
+
+.navigation__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 76px;
+    list-style: none;
+    color: var(--color-white)
+}
+
+.button {
+    width: 166px;
+    height: 56px;
+    background-color: var(--color-white);
+    color: var(--color-rectangle-180);
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 17px;
+    text-align: center;
+    border: none;
+    border-radius: 200px;
+}
+
+.invation {
+    background-image: url(images/Female\ working\ out.png);
+    background-color: #2D282433;
+    background-size: cover;
+    padding: 231px 331px;
+}
+
+.invation__title {
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 77px;
+    color: var(--color-white);
+    margin: 0;
+}
+
+.invation__content-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 22px;
+}
+
+.button_pink {
+    background-color: var(--color-rectangle-180);
+    color: var(--color-white);
+    width: 237px;
+    height: 68px;
+}
