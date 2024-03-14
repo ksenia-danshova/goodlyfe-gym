@@ -171,6 +171,9 @@ html, body {
 }
 
 .motivation {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     background-color: var(--color-rectangle-26);
     background-image: url(images/Woman\ doing\ situps.png);
     background-size: cover;
@@ -203,10 +206,11 @@ html, body {
 
 .premium {
     display: flex;
+    justify-content: center;
     padding-top: 224px;
     padding-left: 155px;
     padding-bottom: 108px;
-    padding-right: 148px;
+    padding-right: 0px;
 }
 
 .premium__content {
@@ -223,6 +227,7 @@ html, body {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    margin-right: 145px;
 }
 
 .premium__images {
@@ -231,7 +236,185 @@ html, body {
     justify-content: space-between;
 }
 
+.premium__image-gym {
+    position: relative;
+    bottom: 100px; left: 200px;
+}
+
+
 .premium__image-weights {
-    position: absolute;
-    top: 200px; left: 100px;
+    position: relative;
+    top: 50px; right: 100px;
+    z-index: -1;
+}
+
+.header_dark {
+    color: var(--color-rectangle-26);
+}
+
+.stories {
+    padding-top: 126px;
+    padding-left: 254px;
+    padding-right: 258px;
+    padding-bottom: 140px;
+    background: linear-gradient(white, white, pink);
+}
+
+.stories__content {
+    display: flex;
+    gap: 33px;
+}
+
+.stories__content-customers {
+    background-color: var(--color-white);
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px rgb(209, 209, 192);
+    padding: 30px 32px;
+}
+
+.content__header {
+    margin: 0;
+    font-size: 38px;
+    line-height: 45px;
+}
+
+.stories__header {
+    margin: 0;
+}
+
+.stories__customers {
+    display: flex;
+    gap: 17px;
+    align-items: center;
+}
+
+.stories__content-james {
+    width: 349px;
+    height: max-content;
+    position: relative;
+    left: 220px;
+}
+
+.stories__content-mary {
+    width: 449px;
+    height: max-content;
+    position: relative;
+    bottom: 130px; left: 220px;
+}
+
+.stories__content-robert {
+    width: 351px;
+    height: max-content;
+    position: relative;
+    top: 250px; right: 190px;
+}
+
+.customers__image {
+    width: 100%;
+    max-width: 59px;
+    height: 57px;
+}
+
+.header_name {
+    margin: 0;
+}
+
+.text_grey {
+    margin: 0;
+}
+
+.stories__title {
+    display: flex;
+    flex-direction: column;
+    width: 414px;
+    height: 200px;
+    position: relative;
+    left: 110px;
+}
+
+.app {
+    background-color: var(--color-rectangle-180);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 280px;
+    padding-top: 112px;
+    padding-right: 147px;
+    padding-bottom: 0;
+}
+
+.header_white {
+    color: var(--color-white);
+    margin: 0;
+}
+
+.text_white {
+    color: var(--color-white);
+}
+
+.app__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: flex-start;
+}
+
+.app__list {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    padding: 0;
+}
+
+.app__images-container {
+    display: flex;
+    align-items: flex-end;
+    padding: 0;
+    position: relative;
+}
+
+.app__image-phone {
+    position: relative;
+    bottom: 170px;
+}
+
+.app__image-iphone {
+    height: max-content;
+}
+
+.social {
+    background-color: var(--color-rectangle-28);
+    padding: 60px 460px 60px 460px;
+}
+
+.social__header {
+    margin: 0;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.social__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 93px;
+}
+
+.social__link-facebook,
+.social__link-youtube,
+.social__link-instagram {
+    background-color: var(--color-white);
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+}
+
+.inst {
+    position: relative;
+    top: 40px; left: 40px;
+}
+.facebook,
+.youtube {
+    position: relative;
+    top: 40px; left: 45px;
 }
